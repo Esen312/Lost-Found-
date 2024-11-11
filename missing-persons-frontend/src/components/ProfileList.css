@@ -1,0 +1,57 @@
+/* src/components/ProfileList.css */
+
+.profile-list-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.profile-item {
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 16px;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.profile-photo {
+  width: 150px;
+  height: 150px;
+  border-radius: 8px;
+  margin-right: 20px;
+  object-fit: cover;
+}
+
+.profile-details {
+  flex: 1;
+}
+
+.profile-name {
+  font-size: 1.5em;
+  color: #333;
+  margin: 0;
+}
+
+.profile-description {
+  font-size: 1em;
+  color: #666;
+  margin: 8px 0;
+}
+
+.profile-info {
+  font-size: 0.9em;
+  color: #555;
+}
+
+.profile-share-links a {
+  color: #007bff;
+  margin-right: 10px;
+  text-decoration: none;
+}
+
+.profile-share-links a:hover {
+  text-decoration: underline;
+}
