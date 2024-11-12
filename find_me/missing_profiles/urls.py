@@ -1,6 +1,6 @@
 # missing_profiles/urls.py
 from rest_framework.routers import DefaultRouter
-from .views import MissingProfileViewSet
+from .views import PersonProfileViewSet, AnimalProfileViewSet
 from django.urls import path, include
 from .views import RegisterView, UserView
 from rest_framework_simplejwt.views import (
@@ -9,7 +9,8 @@ from rest_framework_simplejwt.views import (
 )
 
 router = DefaultRouter()
-router.register(r'profiles', MissingProfileViewSet, basename='missingprofile')
+router.register(r'profiles/person', PersonProfileViewSet, basename='personprofile')
+router.register(r'profiles/animal', AnimalProfileViewSet, basename='animalprofile')
 
 urlpatterns = [
     path('', include(router.urls)),  # Включение маршрутов роутера

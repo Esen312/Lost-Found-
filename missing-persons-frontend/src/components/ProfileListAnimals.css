@@ -1,0 +1,81 @@
+/* src/components/ProfileListAnimals.css */
+
+.profile-list-animals-container {
+  max-width: 900px;
+  margin: 30px auto;
+  padding: 25px;
+  background-color: #fefefe;
+  border-radius: 12px;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1);
+}
+
+.profile-list-animals-item {
+  display: flex;
+  align-items: flex-start;
+  padding: 25px;
+  border: 1px solid #e0e0e0;
+  border-radius: 15px;
+  margin-bottom: 20px;
+  background-color: #ffffff;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.profile-list-animals-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.profile-list-animals-link {
+  text-decoration: none;
+  color: inherit;
+  display: flex;
+  width: 100%;
+  align-items: center;
+}
+
+.profile-list-animals-photo {
+  width: 160px;
+  height: 160px;
+  border-radius: 15px;
+  object-fit: cover;
+  margin-right: 25px;
+  border: 4px solid #d1e8ff;
+  transition: transform 0.3s;
+}
+
+.profile-list-animals-item:hover .profile-list-animals-photo {
+  transform: scale(1.08);
+}
+
+.profile-list-animals-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.profile-list-animals-details h2 {
+  font-size: 1.6em;
+  margin: 0 0 8px;
+  color: #333333;
+  font-weight: 700;
+}
+
+.profile-list-animals-details p {
+  margin: 6px 0;
+  font-size: 1.1em;
+  color: #555555;
+}
+
+.profile-list-animals-details p strong {
+  color: #333333;
+}
+
+.profile-list-animals-container h1 {
+  text-align: center;
+  font-size: 2em;
+  color: #333333;
+  margin-bottom: 30px;
+  font-weight: 700;
+  font-family: 'Arial', sans-serif;
+}

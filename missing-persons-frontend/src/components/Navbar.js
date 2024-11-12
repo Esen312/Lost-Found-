@@ -14,11 +14,14 @@ const Navbar = ({ onSearch }) => {
 
   return (
     <nav className="navbar">
-      <h1 className="navbar-logo">Lost&Found</h1>
+      <Link to="/" className="navbar-logo">
+        <h9>Lost&Found</h9>
+      </Link>
       <div className="navbar-center">
         <Link to="/people">Люди</Link>
         <Link to="/animals">Животные</Link>
-        <Link to="/create">Создать Профиль</Link>
+        <Link to="/create-person">Создать профиль человека</Link>
+        <Link to="/create-animal">Создать профиль животного</Link>
       </div>
       <div className="navbar-search">
         <input

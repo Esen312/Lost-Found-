@@ -1,0 +1,73 @@
+/* src/components/HomePage.css */
+
+.home-page-container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 40px 20px;
+  text-align: center;
+  background-color: #ffffff;
+  border-radius: 16px;
+  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.1);
+}
+
+.home-page-header h1 {
+  font-size: 2.5em;
+  color: #4a90e2;
+  margin-bottom: 15px;
+}
+
+.home-page-header p {
+  font-size: 1.2em;
+  color: #555;
+  margin-bottom: 30px;
+  line-height: 1.6;
+}
+
+.home-page-content {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.home-page-section {
+  background: linear-gradient(135deg, #f3f8fb, #f9fbff);
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.home-page-section h2 {
+  font-size: 1.8em;
+  color: #4a90e2;
+  margin-bottom: 10px;
+}
+
+.home-page-section p {
+  font-size: 1em;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.home-page-links {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.home-page-button {
+  padding: 10px 20px;
+  font-size: 1.1em;
+  color: #ffffff;
+  background-color: #4a90e2;
+  border: none;
+  border-radius: 8px;
+  text-decoration: none;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+.home-page-button:hover {
+  background-color: #357abd;
+  transform: translateY(-2px);
+}
+

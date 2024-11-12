@@ -1,0 +1,102 @@
+/* src/components/PersonProfileDetail.css */
+
+.person-profile-detail-container {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 30px;
+  background: linear-gradient(135deg, #fdfbfb, #f0f0f5);
+  border-radius: 16px;
+  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.15);
+  font-family: 'Arial', sans-serif;
+  color: #333;
+  transition: box-shadow 0.3s ease;
+}
+
+.person-profile-detail-container:hover {
+  box-shadow: 0 16px 40px rgba(0, 0, 0, 0.2);
+}
+
+.person-profile-detail-photo {
+  width: 220px;
+  height: 220px;
+  border-radius: 15px;
+  object-fit: cover;
+  margin: 0 auto 25px;
+  display: block;
+  border: 5px solid transparent;
+  border-image: linear-gradient(135deg, #7fd1e8, #82cda6) 1;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+.person-profile-detail-container h1 {
+  font-size: 2.4em;
+  font-weight: 700;
+  color: #4a90e2;
+  text-align: center;
+  margin-bottom: 25px;
+  text-transform: capitalize;
+}
+
+.person-profile-detail-container p {
+  font-size: 1.1em;
+  line-height: 1.6;
+  margin: 10px 0;
+  display: flex;
+  align-items: center;
+}
+
+.person-profile-detail-container p strong {
+  color: #4a90e2;
+  margin-right: 8px;
+}
+
+.person-profile-detail-container p::before {
+  content: "";
+  display: inline-block;
+  margin-right: 10px;
+  color: #82cda6;
+  font-size: 1.4em;
+}
+
+.person-profile-detail-info {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.person-profile-detail-info p {
+  padding: 15px;
+  background-color: #f3f8fb;
+  border-radius: 12px;
+  font-size: 1.05em;
+  color: #555;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.08);
+  transition: background-color 0.3s;
+}
+
+.person-profile-detail-info p:hover {
+  background-color: #e8f1f6;
+}
+
+.additional-info {
+  grid-column: span 2;
+  margin-top: 15px;
+  font-size: 1.1em;
+  background-color: #fdf2e9;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+  color: #5c5c5c;
+}
+
+.additional-info h2 {
+  font-size: 1.6em;
+  color: #ff8b60;
+  font-weight: 700;
+  margin-bottom: 12px;
+  text-align: center;
+  background: #fff4e5;
+  padding: 10px;
+  border-radius: 12px;
+}
